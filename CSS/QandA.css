@@ -1,0 +1,141 @@
+
+.src-nav{
+    margin-left:3%;
+}
+.src-nav p{
+  font-weight: 600;
+  font-size: medium;
+  color: red;
+}
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #bcbdcf2c 50%, #1138a122 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+
+  .single-product{
+    text-align:center; 
+    height: 10vh;
+    width: 10vw;
+    margin: 1%;
+  }
+  .single-product :hover{
+    color: green;
+  }
+  .sec-cont p{
+    text-align: center;
+    font-size: 20px;
+    font-size: 1.2em;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+  }
+  .b-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    background-color: #fafafafc; 
+    color: rgb(57, 58, 58);
+    font-family: 'Secular One', sans-serif;
+    margin-top: 2%;
+  }
+  .FAQ-TTL{
+    text-align: center;
+    padding: 3%;
+  }
+  .b-content h4{
+    text-align: left;
+    color: rgb(187, 42, 42);
+  }
+  .b-content p{
+    text-align: left;
+    color: #393a3a
+  }
+  .b-content li{
+   font-weight: 100;
+  }
+  .b-content li{
+    font-size: 1.3em;
+
+  }
+  .single-product a{
+    text-decoration: none;
+    color: #47474b;
+    color: #ffffff;
+    /* max-width: 20%; */
+  }
+  .ttle{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+  }
+#evat-ttl{
+  background-color: rgb(251, 251, 251);
+}
+  .ttle h3{
+    text-align: center;
+    font-weight: 500;
+  }
+  .my-nav{
+      background-color: rgba(237, 186, 18, 0.744);
+  }
+  .my-body{
+    height: 100vh;
+  }
+ 
+  .button-76:hover {
+    box-shadow: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .button-76 {
+      padding: 1rem 1.5rem;
+      line-height: 2rem; /* 32px */
+    }
+  }
+  @media (max-width: 800px) {
+    .single-product{
+      font-size: .6em;
+    }
+    }
+    @media (max-width: 1440px) {
+      .single-product{
+        height: 10vh;
+        width: 45vw;
+        padding-top: 2%;
+      }
+      }
+  /* ================================  ============================ */
+  .CERCLE{
+    background-color: #dce8ebb4;
+  }
+  .API1{
+    background-color: #dce8ebb4;
+  }
+  .sec-cont{
+padding: 3%; 
+  }
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  .bg3 {
+    animation-duration:20s;
+  }
+  h1 {
+    font-family:monospace;
+  }
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
