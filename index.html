@@ -7,19 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="ASSETS/gh.PNG">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Secular+One&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/style.css">  
   <link rel="stylesheet" type="text/css"
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fontawesome.com/icons/a?s=solid">
+  <title>Embarking on EVAT</title>
   <link rel="shortcut icon" href="web/assets/images/favicon.png" />
-  <title>EBM GHANA</title>
+  <style type="text/css">
+    body{
+  background-image: url('ASSETS/Accra-Ghana.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  </style>
 </head>
 <script>
   const searchButton = document.getElementById('search-button');
@@ -32,21 +40,20 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light my-nav">
-
     <img src="ASSETS/GRA11.png" alt="" width="100">
     <button class="navbar-toggler" type="button" id="top-icon" data-toggle="collapse" data-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"><img src="ASSETS/ghana.PNG" alt="" width="100"></span>
     </button>
     <div class="collapse navbar-collapse src-nav" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-      </ul>
+    
+        <h3 style="color: #4d4949; margin: left 9px;">Embarking on EVAT</h3>
+      
       <!-- <img data-target="#exampleModal" data-target="#exampleModal" data-whatever="@fat" src="../ASSETS/akaicon-removebg-preview.png" alt=""> -->
-      <button type="button" style=" background: none;color: inherit;
+      <!-- <button type="button" style=" background: none;color: inherit;
           border: none;" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat" id="btn">
-          <!-- <img src="ASSETS/CHRIMAS-W (13).png" alt="" width="20"> -->
           <p>Login</p>
-        </button>
+        </button> --> 
 
     </div>
   </nav>
@@ -77,31 +84,32 @@
   <div class="b-content container h-100 d-flex justify-content-center">
     <div class="container">
     <div class="sec-cont ">
-      <div class="classment">TAXPAYER APPS</div>
+      <div class="classment">API PORTALS</div>
       <div class=" product row h-100 d-flex justify-content-center">
+        <div class="col-md-2 single-product GRA ACCOUNTS">
+          <div></div>
+          <div class="pro-one"><a href="http://mygra.e-vatghana.com/mygra/login.php" target="_blank">MY GRA</a> </div>
+        </div>
+        <div class="col-md-2 single-product GRA ACCOUNTS">
+          <div></div>
+          <div class="pro-one"><a href="http://mygra.e-vatghana.com/web/vsdc/vsdc_request.php" target="_blank">REQUEST VSDC</a></div>
+        </div>
+        <div class="col-md-2 single-product GRA ACCOUNTS">
+          <div></div>
+          <div class="pro-one"><a href="https://documenter.getpostman.com/view/20074551/UVsQtQHr" target="_blank">INTEGRATION</a></div>
+        </div>
+         <div class="single-product col-md-2 GRA ACCOUNTS">
+          <div></div>
+          <div class="pro-one"><a href="Certificates.php" target="_blank">CERTIFICATION</a></div>
+        </div>
+       
+      </div>
 
-        <div class="col-md-2 single-product GRA ACCOUNTS">
-          <div></div>
-          <div class="pro-one"><a href="http://pilot.vat-gh.com/ebm_portal/" target="_blank">MY GRA</a> </div>
-        </div>
-        <div class="col-md-2 single-product GRA ACCOUNTS">
-          <div></div>
-          <div class="pro-one"><a href="http://pilot.vat-gh.com:8080/VSDC_REGISTRATION/clientRequestVsdc.jsp" target="_blank">REQUEST VSDC</a></div>
-        </div>
-        <div class="col-md-2 single-product GRA ACCOUNTS">
-          <div></div>
-          <div class="pro-one"><a href="http://pilot.vat-gh.com/ishyigapi/" target="_blank">INTEGRATION API</a></div>
-        </div>
+     <!--  <div class=" product row h-100 d-flex justify-content-center">
+        
         <div class="single-product col-md-2 GRA ACCOUNTS">
           <div></div>
           <div class="pro-one"><a href="#">TICKET</a></div>
-        </div>
-      </div>
-      <div class=" product row h-100 d-flex justify-content-center">
-        
-        <div class="col-md-2 single-product GRA ACCOUNTS">
-          <div></div>
-          <div class="pro-one"><a href="http://pilot.vat-gh.com/web/vsdc/" target="_blank">VSDC</a> </div>
         </div>
         <div class="col-md-2 single-product GRA ACCOUNTS">
           <div></div>
@@ -115,10 +123,10 @@
           <div></div>
           <div class="pro-one"><a href="#">POS SMALL</a></div>
         </div>
-      </div>
+      </div> -->
 
 
-      <div class="classment">CUSTOMER APPS</div>
+     <!--  <div class="classment">CUSTOMER APPS</div>
       <div class="product row h-100 d-flex justify-content-center">
         <div class="single-product col-md-2 ACC ACCOUNTS">
           <div></div>
@@ -134,30 +142,36 @@
         </div>
         <div class="single-product col-md-2 ACC ACCOUNTS">
           <div></div>
-          <div class="pro-one"><a href="#">VERIFICATION</a></div>
+          <div class="pro-one"><a href="#">VERIFICATIONS</a></div>
         </div>
-      </div>
-      <div class="classment">GRA APPS</div>
+      </div> -->
+      <div class="classment">GRA</div>
 
 
       <div class="product row h-100 d-flex justify-content-center">
         <div class="single-product col-md-2 CERCLE ACCOUNTS">
           <div></div>
-          <div class="pro-one"><a href="#"> BACKEND</a></div>
+          <div class="pro-one"><a href="https://authsrv.e-vatghana.com/evat/" target="_blank"> BACKEND</a></div>
         </div>
         <div class="single-product col-md-2 CERCLE ACCOUNTS">
           <div></div>
-          <div class="pro-one"><a href="http://pilot.vat-gh.com/web/vsdc/interface/perfomance.php" target="_blank">MONITORING</a></div>
+          <div class="pro-one"><a href="HeartBeat-downloader.html" target="_blank">MONITORING</a></div>
         </div>
+         <div class="col-md-2 single-product GRA ACCOUNTS">
+          <div></div>
+          <!-- <div class="pro-one"><a href="/web/vsdc/" target="_blank">VSDC</a> </div> -->
+          <div class="pro-one"><a href="system-requirements.html" target="_blank">REQUIREMENTS</a> </div>
+        </div><!-- 
         <div class="single-product col-md-2 CERCLE ACCOUNTS">
           <div></div>
           <div class="pro-one"><a href="#" ><a href="#">SECURITY</a></a></div>
-        </div>
+        </div> -->
         <div class="single-product col-md-2 CERCLE ACCOUNTS">
           <div></div>
-          <div class="pro-one"><a href="http://pilot.vat-gh.com:8080/NIKI/" target="_blank">NIKI</a></div>
+          <div class="pro-one"><a href="http://gra.evatgra.com:8080/NIKI/" target="_blank">NIKI</a></div>
         </div>
       </div>
+
       <!-- <div class="product row h-100 d-flex justify-content-center">
 
         <div class="single-product col-md-2 CERCLE ACCOUNTS">
@@ -167,33 +181,29 @@
       </div>
  -->
 
-      <div class="classment">SYSTEMS APPS</div>
+      <div class="classment">SYSTEMS</div>
       <div class="product row h-100 d-flex justify-content-center">
         <div class="single-product col-md-2 API ACCOUNTS">
           <div></div>
-          <div class="pro-one"><a href="http://pilot.vat-gh.com/web/backup.php" target="blank">BACKUP</a></div>
+          <div class="pro-one"><a href="https://psl-webapps/gra-invoicer" target="blank">SDW APP</a></div>
         </div>
        <!--  <div class="single-product col-md-2 API ACCOUNTS">
           <div></div>
-          <div class="pro-one"><a href="#">RECOGNITION</a></div>
+          <div class="pro-one"><a href="#">RECOGNITION</a></div>@
         </div> -->
         <div class="single-product col-md-2 API ACCOUNTS">
           <div></div>
-          <div class="pro-one"><a href="http://pilot.vat-gh.com/web/client/activity/login.php?loginas=Company" target="_blank">ACCOUNTS</a></div>
+          <div class="pro-one"><a href="/web/client/activity/login.php?loginas=Algorithm" target="_blank">TOOLS</a></div>
         </div>
-        <!-- <div class="single-product col-md-2 API ACCOUNTS">
-          <div></div>
-          <div class="pro-one"><a href="#">NETWORK</a></div>
-        </div> -->
+     
         <div class="single-product col-md-2 API ACCOUNTS">
           <div></div>
-          <div class="pro-one"><a href="https://ishyiga.rw/callcenter/" target="blank">CALLCENTER</a></div>
+          <div class="pro-one"><a href="./BWE/QandA.html" target="blank">HELP DESK</a></div>
         </div>
-        <div class="single-product col-md-2 API ACCOUNTS">
+        <div class="single-product col-md-2 API ACCOUNTS"> 
           <div></div>
-          <div class="pro-one"><a href="http://51.89.233.123:8080/ishyigapi/humanoidDashboard.jsp" target="blank">SLA</a></div>
+          <div class="pro-one"><a href="https://authsrv.e-vatghana.com/verification/" target="blank">VERIFICATION</a></div>
         </div>
-
       </div>
 
     </div>
@@ -203,89 +213,9 @@
   </div></div></div>
  <!-- =================================================   footer   ============================================================ -->
 <!-- Footer -->
-<footer class="page-footer font-small blue pt-4 my-footer">
-  <!-- Footer Links -->
-  <div class="container-fluid text-center text-md-left">
 
-    <!-- Grid row -->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
-
-        <!-- Content -->
-        <h5 class="text-uppercase">Footer Content</h5>
-        <p>The information and resources provided by the content is mainly there to support
-           taxpeyers to make a follow up on their taxes
-           </p>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none pb-3">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase">ADRESS</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">CITY</a>
-          </li>
-          <li>
-            <a href="#!">P-BOX</a>
-          </li>
-          <li>
-            <a href="#!">Street</a>
-          </li>
-          <li>
-            <a href="#!">Email</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
-
-      
-        <h5 class="text-uppercase"><Address>RECENT UPDATE</Address></h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
-      </div> 
-     
-
-    </div>
-    <!-- Grid row -->
-
-  </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2022 Copyright:
-    <a href="/"> GRA</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-  <!-- =================================================   footer   ============================================================ -->
+ 
+<!-- =================================================   footer   ============================================================ -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -298,5 +228,4 @@
     crossorigin="anonymous"></script>
   </div>
 </body>
-
 </html>
